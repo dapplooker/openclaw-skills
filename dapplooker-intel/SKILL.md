@@ -24,7 +24,6 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### token_intelligence
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/crypto-market/` -->
 **URL:** `GET https://api.dapplooker.com/v1/crypto-market/`
 
 **Use when:** User asks about token price, market cap, volume, holders, social mindshare, or technical levels.
@@ -49,7 +48,6 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### perp_intelligence
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/hl-perp-trade/` -->
 **URL:** `GET https://api.dapplooker.com/v1/hl-perp-trade/`
 
 **Use when:** User asks about perp mark price, funding rates, open interest, orderbook liquidity, or technicals for a token on a specific DEX.
@@ -68,8 +66,7 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### historical_market_data
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/crypto-market-historical/` -->
-**URL:** `GET https://api.dapplooker.com/v1/crypto-market-historical/`
+**URL:** `GET https://api.dapplooker.com/v1/crypto-market-historical`
 
 **Use when:** User wants time-series price, volume, and market cap data.
 
@@ -92,8 +89,7 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### token_ta
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/token-ta/` -->
-**URL:** `GET https://api.dapplooker.com/v1/token-ta/`
+**URL:** `GET https://api.dapplooker.com/v1/token-ta`
 
 **Use when:** User asks about RSI, SMA, or support/resistance levels.
 
@@ -115,8 +111,7 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### trending_tokens
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/trending/` -->
-**URL:** `GET https://api.dapplooker.com/v1/trending/`
+**URL:** `GET https://api.dapplooker.com/v1/trending`
 
 **Use when:** User wants to discover hot tokens by volume, market cap, or smart money activity.
 
@@ -134,7 +129,6 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### smart_money_trends
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/smart-money-trends/` -->
 **URL:** `GET https://api.dapplooker.com/v1/smart-money-trends/`
 
 **Use when:** User asks about whale accumulation or smart money flows for a token.
@@ -153,7 +147,6 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### staking_intelligence
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/stake-trends/` -->
 **URL:** `GET https://api.dapplooker.com/v1/stake-trends/`
 
 **Use when:** User asks about staking TVL, yields, retention, or recent stake/unstake activity.
@@ -172,8 +165,7 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### market_mcp
 
-<!-- **URL:** `POST http://127.0.0.1:3627/api/v1/mcp/` -->
-**URL:** `POST https://api.dapplooker.com/v1/mcp/`
+**URL:** `POST https://api.dapplooker.com/v1/mcp`
 
 **Use when:** User has a complex market question requiring AI-synthesized analysis from multiple data sources.
 
@@ -190,7 +182,6 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### live_perp_strategy
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/live-perp-strategy/` -->
 **URL:** `GET https://api.dapplooker.com/v1/live-perp-strategy/`
 
 **Use when:** User wants AI-generated perp trading strategies.
@@ -210,7 +201,6 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### token_directory
 
-<!-- **URL:** `GET http://127.0.0.1:3627/api/v1/crypto-metainfo/` -->
 **URL:** `GET https://api.dapplooker.com/v1/crypto-metainfo/`
 
 **Use when:** User wants to look up token metadata (name, ticker, contract address) across chains or ecosystems.
