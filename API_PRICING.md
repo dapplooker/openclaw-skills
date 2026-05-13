@@ -18,7 +18,7 @@ DappLooker AI provides a production-grade DeFi intelligence layer for autonomous
 | `/v1/mcp/` | POST | **$0.100** | AI-synthesized analysis drawing from multiple data sources. |
 | `/v1/live-perp-strategy/` | GET | **$0.500** | Advanced AI-generated perp trading strategies and signals. |
 | `/v1/crypto-market/` | GET | **$0.005** | Real-time token metrics, price, market cap, volume, and social mindshare. |
-| `/v1/hl-perp-trade/` | GET | **$0.005** | Execution-grade perp data: funding rates, OI, and orderbook liquidity. |
+| `/v1/perp-intelligence/` | GET | **$0.005** | Execution-grade perp data: funding rates, OI, and orderbook liquidity. |
 | `/v1/token-ta/` | GET | **$0.005** | Multi-interval technical analysis (RSI, SMA, Support/Resistance). |
 | `/v1/trending/` | GET | **$0.005** | Hot tokens ranked by volume, smart money, or staking activity. |
 | `/v1/smart-money-trends/` | GET | **$0.005** | Institutional-grade capital flow tracking (Whale accumulation). |

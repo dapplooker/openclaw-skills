@@ -48,7 +48,7 @@ Payment is handled automatically via the OpenClaw Gateway. If you receive a 402,
 
 ### perp_intelligence
 
-**URL:** `GET https://api.dapplooker.com/v1/hl-perp-trade/`
+**URL:** `GET https://api.dapplooker.com/v1/perp-intelligence/`
 
 **Use when:** User asks about perp mark price, funding rates, open interest, orderbook liquidity, or technicals for a token on a specific DEX.
 

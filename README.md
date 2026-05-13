@@ -98,7 +98,7 @@ The `SKILL.md` distributed to users should point to this hosted gateway URL by d
 If you are developing or testing locally, you can still use the provided wrapper:
 
 1. Start the proxy: `./start_wrapper.sh`
-2. Point your local skill to `http://localhost:3628`.
+2. Point your local skill to `http://localhost:3627`.
 
 ## Support
 
