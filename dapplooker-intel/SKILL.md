@@ -3,16 +3,38 @@ name: dapplooker-ai
 description: DeFi intelligence suite — token metrics, perp trading data, technical analysis, smart money flows, staking yields, and AI-powered market research across Base, Solana, and 10+ perp DEXs
 emoji: 🔮
 homepage: https://docs.dapplooker.com/products/api-endpoints
+version: 1.0.1
 ---
 
 # DappLooker DeFi Intelligence
 
 Access production-grade DeFi market intelligence via DappLooker's x402 API.
 
-## Payment
+## Payment & Spending Safeguards
 
 All endpoints require x402 payment in **USDC** on **Polygon** (Chain ID: 137).
 **CRITICAL:** Always use Polygon for payments, even when querying Base or Solana data. The user's wallet is only funded on Polygon.
+
+### Per-Call Pricing
+
+| Function | Cost per Call |
+|----------|-------------|
+| `token_intelligence` | $0.005 |
+| `perp_intelligence` | $0.005 |
+| `historical_market_data` | $0.005 |
+| `token_ta` | $0.005 |
+| `trending_tokens` | $0.005 |
+| `smart_money_trends` | $0.005 |
+| `staking_intelligence` | $0.005 |
+| `token_directory` | $0.005 |
+| `market_mcp` | $0.10 |
+| `live_perp_strategy` | $0.50 |
+
+### Spending Rules
+- **Always confirm with the user before making paid calls.** Tell them which endpoint you are calling and its cost.
+- **Do not retry failed paid calls** without user approval.
+- **Batch wisely:** If the user asks a broad question, prefer a single `market_mcp` call ($0.10) over multiple individual calls.
+- **Session budget:** Unless the user explicitly raises it, assume a default spending cap of **$1.00 per conversation**. Alert the user if cumulative spending approaches this limit.
 
 Payment is handled automatically via the OpenClaw Gateway. If you receive a 402, the Gateway handles payment and retries. Simply wait for the tool call to complete.
 
