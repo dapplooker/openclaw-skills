@@ -9,11 +9,16 @@ DappLooker is a DeFi intelligence suite providing real-time token metrics, perpe
 **Official Website:** [docs.dapplooker.com](https://docs.dapplooker.com)
 
 ## What this Skill Adds
+
 Your agent will be able to autonomously answer questions like:
 - "What's the current funding rate for BTC on Hyperliquid?"
-- "Are whales accumulating $VIRTUAL on Base?"
+  ![Funding Rate Example](assets/image.png)
+- "Give me perp intelligence of btc using dapplooker-ai skill."
+  ![Perp Intelligence Example](assets/image-1.png)
 - "Give me a technical analysis for AIXBT including RSI and SMA levels."
-- "What are the top trending tokens by smart money flow?"
+  ![Technical Analysis Example](assets/image-3.png)
+- "What are the past 7 days historical data for BTC?"
+  ![Historical Token Data Example](assets/image-2.png)
 
 ## Installation
 
