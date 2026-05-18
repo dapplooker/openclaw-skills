@@ -15,7 +15,7 @@ Your agent will be able to autonomously answer questions like:
   ![Funding Rate Example](assets/image.png)
 - "Give me perp intelligence of btc using dapplooker-ai skill."
   ![Perp Intelligence Example](assets/image-1.png)
-- "Give me a technical analysis for AIXBT including RSI and SMA levels."
+- "Give me a technical analysis for SOL including RSI and SMA levels."
   ![Technical Analysis Example](assets/image-3.png)
 - "What are the past 7 days historical data for BTC?"
   ![Historical Token Data Example](assets/image-2.png)
